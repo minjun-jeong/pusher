@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author minjjeong
+%%% @copyright (C) 2016, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 12. 7월 2016 오전 9:20
+%%%-------------------------------------------------------------------
+{application, pusher, [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {pusher_app, []}},
+  {env, []}
+]}.
